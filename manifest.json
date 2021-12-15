@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"version": "1.0",
+	"name": "Brainly Unlocker",
+	"author": "ocean#6836",
+	"content_scripts": [{
+		"run_at": "document_idle",
+		"matches": ["*://*.brainly.pl/*", "*://*.znanija.com/*", "*://*.brainly.lat/*", "*://*.brainly.com.br/*", "*://*.nosdevoirs.fr/*", "*://*.eodev.com/*", "*://*.brainly.in/*", "*://*.brainly.co.id/*", "*://*.brainly.ro/*", "*://*.brainly.ph/*", "*://*.brainly.com/*"],
+		"js": ["index.js"]
+	}],
+	"icons": {
+		"200": "assets/brainly-fav-icon.png"
+	}
+}
